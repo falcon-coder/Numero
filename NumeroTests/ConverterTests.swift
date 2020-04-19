@@ -22,10 +22,10 @@ class ConverterTests: XCTestCase {
     super.tearDown()
   }
   
-  func testConversionForOne() {
-    let result = converter.convert(1)
-    XCTAssertEqual(result, "I", "Conversion for 1 is incorrect")
-  }
+//   func testConversionForOne() {
+//     let result = converter.convert(1)
+//     XCTAssertEqual(result, "I", "Conversion for 1 is incorrect")
+//   }
   
   func testConversionForTwo() {
     let result = converter.convert(2)
