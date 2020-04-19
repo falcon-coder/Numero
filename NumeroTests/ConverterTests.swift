@@ -32,7 +32,7 @@ class ConverterTests: XCTestCase {
     XCTAssertEqual(result, "II", "Conversion for 2 is incorrect")
   }
   
-  func testConversionForTwo3() {
+  func testConversionForTwo34() {
     let result = converter.convert(1)
     XCTAssertEqual(result, "II", "Conversion for 2 is incorrect")
   }
